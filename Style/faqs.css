@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Signika:wght@300..700&display=swap');
+
+@font-face {
+  font-family: myFont1;
+  src: url(/Assets/Fonts/ClashDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: myFont2;
+  src: url(/Assets/Fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+/* Color_Codes
+#06080c
+#116feb */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: #06080c;
+  
+}
+
+/* HEADER SECTION */
+header {
+  background: #06080c;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 40px;
+  margin-top: -55px;
+}
+
+header img {
+  padding-top: 50px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+  overflow: hidden;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: #b7b7b7;
+  font-family: myFont1;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 15px;
+  text-align: center;
+  /* flex-grow: 1; */
+  box-sizing: border-box;
+  min-width: 0;
+  border-radius: 10px;
+}
+
+.navbar a#contac {
+  color: #b7b7b7;
+  font-family: myFont1;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 40px;
+  text-align: center;
+  /* flex-grow: 1; */
+  box-sizing: border-box;
+  min-width: 0;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #116feb;
+}
+
+.navbar a:hover {
+  background-color: #b7b7b7;
+  color: black;
+  transition: ease-in-out 0.5s;
+}
+
+.navbar a#contac:hover {
+  background-color: #b7b7b7;
+  color: black;
+  transition: ease-in-out 0.5s;
+  border: 1px solid;
+  border-color: #b7b7b7;
+}
+
+/*FOOTER SECTION*/
+.footer-container {
+  font-family: myFont2;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px 0;
+  border-top: 2px solid #333;
+  margin-left: 133px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #b7b7b7;
+}
+
+.footer-column p,
+.footer-column a {
+  font-size: 20px;
+  color: #b7b7b7;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+}
+
+.logo {
+  margin-top: 70px;
+}
+
+.boxxonia_story {
+  font-family: myFont1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: #fff;
+}
+
+.boxxonia_story .nav-left,
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+.boxxonia_story h1 {
+  font-size: 48px;
+  color: #f6b62b; /* Mustard-yellow color */
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.main_min_content {
+  background: url(/Assets/boxxo_story.png);
+}
+
+.main_content {
+  font-family: myFont2;
+  max-width: 1050px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #b7b7b7;
+  font-family: myFont2;
+}
+
+.boxonians_container {
+  background-color: #06080c;
+}
+
+
+
+.boxonians_container .boxonians {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: #fff;
+  
+}
+
+.boxonians_container .boxonians .nav-left,
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+.boxonians_container .boxonians h1 {
+  font-size: 48px;
+  color: #b7b7b7; /* Mustard-yellow color */
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: myFont1;
+}
+
+
+
+
+.boxonians_container .boxonians_team {
+  width: 90%;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.image-container {
+  flex: 0 0 300px; /* Fixed width for the image */
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.image-container img {
+  width: 168px;
+  height: 290px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.text-content {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.text-content p {
+  line-height: 1.4;
+  font-size: 20px;
+  font-family: myFont2;
+}
+
+
+.bg-gradient {
+    background: linear-gradient(to bottom, #0f172a, #1e293b);
+}
+.rotate-180 {
+    transform: rotate(180deg);
+}  
+
+
+.blueprint {
+  width: 80%;
+  height: 10%;
+  background-color: #D4E6FF; 
+  border-radius: 10px;
+  margin-left: 120px;
+  font-family: myFont2;
+  margin-top: 20px;
+}
+
+.blueprint h2 {
+  font-size: 25px;
+  color: #06080c; /* Mustard-yellow color */
+  font-weight: 700;
+}
+
+.blueprint p {
+  color: #06080c;
+  font-family: myFont2;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+
+
+.blueprint .icon{
+  border: 2px solid #116feb;
+  border-radius: 20px;
+}
+
+li {
+  margin-bottom: 10px; /* Add space between list items */
+  color: #2c3e50; /* Darker text for better readability. */
+  font-size: 18px;  /* Make the font size a bit larger */
+}
+li:last-child{
+ margin-bottom: 0; /* Remove space after the last item */
+}

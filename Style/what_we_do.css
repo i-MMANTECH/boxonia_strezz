@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Signika:wght@300..700&display=swap');
+
+@font-face {
+  font-family: myFont1;
+  src: url(/Assets/Fonts/ClashDisplay-Medium.ttf);
+}
+
+@font-face {
+  font-family: myFont2;
+  src: url(/Assets/Fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+/* Color_Codes
+#06080c
+#116feb */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background: #06080c;
+}
+
+/* HEADER SECTION */
+header {
+  background: #06080c;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 40px;
+  margin-top: -55px;
+}
+
+header img {
+  padding-top: 50px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* NAVBAR SECTION */
+.navbar {
+  overflow: hidden;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: #b7b7b7;
+  font-family: myFont1;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 15px;
+  text-align: center;
+  /* flex-grow: 1; */
+  box-sizing: border-box;
+  min-width: 0;
+  border-radius: 10px;
+}
+
+.navbar a#contac {
+  color: #b7b7b7;
+  font-family: myFont1;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 8px 40px;
+  text-align: center;
+  /* flex-grow: 1; */
+  box-sizing: border-box;
+  min-width: 0;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #116feb;
+}
+
+.navbar a:hover {
+  background-color: #b7b7b7;
+  color: black;
+  transition: ease-in-out 0.5s;
+}
+
+.navbar a#contac:hover {
+  background-color: #b7b7b7;
+  color: black;
+  transition: ease-in-out 0.5s;
+  border: 1px solid;
+  border-color: #b7b7b7;
+}
+
+/*FOOTER SECTION*/
+.footer-container {
+  font-family: myFont2;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px 0;
+  border-top: 2px solid #333;
+  margin-left: 133px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-column p,
+.footer-column a {
+  font-size: 20px;
+  color: #d1d5db;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.footer-column a:hover {
+  color: #ffffff;
+}
+
+.logo {
+  margin-top: 70px;
+}
+
+.what_we_do {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  color: #fff;
+}
+
+.what_we_do .nav-left,
+.nav-right {
+  display: flex;
+  gap: 15px;
+}
+
+.what_we_do h1 {
+  font-family: myFont1;
+  font-size: 48px;
+  color: #b7b7b7;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.ideation {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 2px;
+  background: url(/Assets/students-rehashing-theater-class.png);
+  background-repeat: none;
+}
+
+.ideation h1 {
+  font-family: myFont1;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #116feb; /* Blue color for "Ideation" */
+}
+
+.ideation p {
+  font-family: myFont2;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #b7b7b7;
+  font-size: 20px;
+  padding-right: 155px;
+  padding-left: 155px;
+  margin-bottom: 70px;
+}
+
+.end_to_end_productions {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 2px;
+  background: url(/Assets/man-filming-with-professional-camera-new-movie.png);
+  background-repeat: none;
+}
+
+.end_to_end_productions h1 {
+  font-family: myFont1;
+  font-size: 3em;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: #116feb; /* Blue color for "Ideation" */
+}
+
+.end_to_end_productions p {
+  font-family: myFont2;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #b7b7b7;
+  font-size: 20px;
+  padding-right: 155px;
+  padding-left: 155px;
+  /* margin-bottom: 80px; */
+}
+
+.marketing {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 2px;
+  background: url(/Assets/dark-skinned-woman-colleagues-corporate-start-up-office-working-finish-project-diverse-team-business-people-analyzing-company-financial-reports-from-computer.png);
+  background-repeat: none;
+}
+
+.marketing h1 {
+  font-family: myFont1;
+  font-size: 3em;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: #116feb; /* Blue color for "Ideation" */
+}
+
+.marketing p {
+  font-family: myFont2;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #b7b7b7;
+  font-size: 20px;
+  padding-right: 155px;
+  padding-left: 155px;
+  margin-bottom: 60px;
+}
+
+.ip_protection {
+  margin-top: 50px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 2px;
+  background: url(/Assets/police-officer-solving-crimes-office.png);
+  background-repeat: none;
+}
+
+.ip_protection h1 {
+  font-family: myFont1;
+  font-size: 3em;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: #116feb; /* Blue color for "Ideation" */
+}
+
+.ip_protection p {
+  font-family: myFont2;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #b7b7b7;
+  font-size: 20px;
+  padding-right: 155px;
+  padding-left: 155px;
+  margin-bottom: 57px;
+}
+
+.management {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 2px;
+  background: url(/Assets/people-office-work-day.png);
+  background-repeat: none;
+}
+
+.management h1 {
+  font-family: myFont1;
+  font-size: 3em;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  color: #116feb; /* Blue color for "Ideation" */
+}
+
+.management p {
+  font-family: myFont2;
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.3;
+  color: #b7b7b7;
+  font-size: 20px;
+  padding-right: 155px;
+  padding-left: 155px;
+  margin-bottom: 50px;
+}
