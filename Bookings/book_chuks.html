@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuks Joseph</title>
+    <link rel="stylesheet" href="/Bookings/Styles/book_chuks.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/boxonia_logo.ico" />
+    <script src="/Bookings/modal-script.js"></script>
+</head>
+
+<body>
+    <div class="landing_page_content">
+        <header>
+
+            <img src="/Assets/boxonia_logo.png" alt="Boxonia">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about_boxonia.html">About Boxonia</a>
+                <a href="what_we_do.html">What We Do</a>
+                <a href="talents.html">Talents</a>
+                <a href="projects.html">Projects</a>
+                <a href="news.html">News</a>
+                <a href="faqs.html">FAQ</a>
+                <a href="contact_us.html" id="contac">Contact Us</a>
+            </div>
+        </header>
+
+    </div>
+
+
+
+    <div class="boxonians_container">
+
+        <div class="boxonians">
+            <div class="nav-left">
+                <img src="/Assets/image_left_story.png" alt="">
+            </div>
+            <h1>Boxonia Talents</h1>
+            <div class="nav-right">
+                <img src="/Assets/image_right_story.png" alt="">
+            </div>
+        </div>
+
+        <div class="chuks">
+            <h1>Chuks Joseph</h1>
+        </div>
+
+        <div class="boxonians_team">
+
+            <div class="imagonic">
+                <img src="/Assets/book_chuks.png" alt="">
+            </div>
+
+            <div class="text-content"> 
+                <p> <b>Chuks Joseph</b> has become a fan favorite in the Nollywood space and
+                    beyond, admired for his charming, witty, smart, and confident
+                    personality. To hone his craft as a professional actor, he trained at
+                    renowned film institutes, including <b><i>EbonyLife Creative Academy</i></b>, <b><i>Royal Arts Academy</i></b>
+                    , <b><i>and the African International Film Festival (AFRIFF)</i></b>
+                    acting masterclass. Currently based in Lagos, Chuks is an accomplished 
+                    actor and model with a strong presence in the entertainment industry.
+                </p>
+                <p>
+                    Standing 5’9” with an athletic build, Chuks has appeared in numerous
+                    blockbuster films (both in cinemas and on streaming platforms), TV
+                    shows, music videos, commercials, and fashion shows. His notable works include <b><i>Dark October</i></b>, <b><i>The Origin: Madam Koi-Koi</i></b>, and <b><i></i>Afamefuna</i></b> on Netflix, Criminal on Prime Video,  Leaked and Kokomma on
+                    YouTube. He also starred in When Love Strikes, Nigeria’s latest football-
+                    themed film. On television, Chuks has featured in series such as
+                    Masquerades of Aniedo, Schooled, Nwanyi Ike, Riona, Baby Drama, and
+                    Flatmates.
+                </p> 
+                    
+                <p>
+                    As a model, Chuks was the first runner-up in the 2020 Mr. Ideal Nigeria
+                    competition, earning the title of Mr. Ideal Nigeria Earth. He has since
+                    been featured in music videos, commercials, and fashion shoots,
+                    showcasing his versatility and presence in the modeling world.
+                </p> 
+            </div>
+          
+        </div>
+
+        <div class="book_chuks_display">
+            <img src="/Assets/book_chuks_display.png" alt="">
+        </div>
+        
+
+
+        <div class="read_more_btn">
+            <a href="#" id="read_more">Book Chuks</a>
+        </div>
+
+        <div id="bookingModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close-btn"><div class="x">&times;</div></span>
+                <!-- <div class="modal-logo">Bọ́xọ̀nià</div> -->
+    
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label>Project type:</label>
+                        <div class="options-container">
+                            <span class="option-button" data-group="project-type" data-value="Feature Film">Feature Film</span>
+                            <span class="option-button" data-group="project-type" data-value="Short Film">Short Film</span>
+                            <span class="option-button" data-group="project-type" data-value="AD Commercial">AD Commercial</span>
+                            <span class="option-button" data-group="project-type" data-value="Music Video">Music Video</span>
+                            <span class="option-button" data-group="project-type" data-value="Brand Influencing">Brand Influencing</span>
+                            <span class="option-button" data-group="project-type" data-value="Others">others</span>
+                            <input type="hidden" name="project_type" id="project_type_value">
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label>Platform:</label>
+                        <div class="options-container">
+                            <span class="option-button" data-group="platform" data-value="Cinema">Cinema</span>
+                            <span class="option-button" data-group="platform" data-value="Netflix">Netflix</span>
+                            <span class="option-button" data-group="platform" data-value="Amazon">Amazon</span>
+                            <span class="option-button" data-group="platform" data-value="Youtube">Youtube</span>
+                            <span class="option-button" data-group="platform" data-value="Others">others</span>
+                             <input type="hidden" name="platform" id="platform_value">
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="projectSynopsis" style="text-align: left;">Project Synopsis / Information:</label>
+                        <textarea id="projectSynopsis" name="projectSynopsis" rows="4"></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="projectDuration" style="text-align: left;">Project Duration:</label>
+                        <input type="text" id="projectDuration" name="projectDuration">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="paymentOffer" style="text-align: left;">Payment Offer:</label>
+                        <input type="text" id="paymentOffer" name="paymentOffer">
+                    </div>
+    
+                    <div class="read_more_btn_2">
+                        <a href="#" id="read_more_2">Book Chuks</a>
+                    </div>
+                    <!-- <button type="submit" class="submit-btn">Book Bọ̀ọ̀nià</button> -->
+    
+                    <!-- <p class="helper-text">- Project to Gain Marketing Support from Bọ́ọ̀nià Blueprint</p> -->
+                </form>
+            </div>
+    
+        </div>
+
+    </div>
+
+    
+
+    <div class="social_media_icons">
+        <a href="#"><img src="/Assets/IMDb.png" alt=""></a>
+        <a href="#"><img src="/Assets/iNSTAGRAM_2.png" alt=""></a>
+        <a href="#"><img src="/Assets/X_Twitter.png" alt=""></a>
+    </div>
+
+
+    <div class="working_with_chuks">
+        <h4>Pros of Working with Chuks</h4>
+        <p>
+            - Professionalism on set    &nbsp; - Dynamic performance skills &nbsp; - Professionalism on set   &nbsp; <br>
+            - Great Communication Skills &nbsp; - Good Vibes King <br>
+            - Project to Gain Marketing Support from Boxonia Blueprint
+        </p>
+            
+
+    </div>
+
+
+
+    <!-- <div class="footer-container">
+        <div class="footer-column">
+            <div class="logo"><img src="/Assets/boxonia_logo.png" alt=""></div>
+        </div>
+        <div class="footer-column">
+            <p>Contact Us</p>
+            <p>Address: Lagos, Nigeria</p>
+            <p>Tel: +2348143291731</p>
+        </div>
+        <div class="footer-column">
+            <p>Socials</p>
+            <a href="#">Instagram</a><br>
+            <a href="#">LinkedIn</a><br>
+            <a href="#">Youtube</a><br>
+            <a href="#">Twitter (x)</a>
+        </div>
+        <div class="footer-column">
+            <p>Info</p>
+            <a href="#">Terms & Conditions</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Careers</a>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+
+        var copy = document.querySelector(".our_projects-slide").cloneNode(true);
+        document.querySelector(".our_projects").appendChild(copy);
+    </script>
+</body>
+
+</html>

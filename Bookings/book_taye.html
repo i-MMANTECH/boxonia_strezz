@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taye Arimoro</title>
+    <link rel="stylesheet" href="/Bookings/Styles/book_taye.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/boxonia_logo.ico" />
+    <script src="/Bookings/modal-script.js"></script>
+</head>
+
+<body>
+    <div class="landing_page_content">
+        <header>
+
+            <img src="/Assets/boxonia_logo.png" alt="Boxonia">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about_boxonia.html">About Boxonia</a>
+                <a href="what_we_do.html">What We Do</a>
+                <a href="talents.html">Talents</a>
+                <a href="projects.html">Projects</a>
+                <a href="news.html">News</a>
+                <a href="faqs.html">FAQ</a>
+                <a href="contact_us.html" id="contac">Contact Us</a>
+            </div>
+        </header>
+
+    </div>
+
+
+
+    <div class="boxonians_container">
+
+        <div class="boxonians">
+            <div class="nav-left">
+                <img src="/Assets/image_left_story.png" alt="">
+            </div>
+            <h1>Boxonia Talents</h1>
+            <div class="nav-right">
+                <img src="/Assets/image_right_story.png" alt="">
+            </div>
+        </div>
+
+        <div class="taye">
+            <h1>Taye Arimoro</h1>
+        </div>
+
+        <div class="boxonians_team">
+
+            <div class="imagonic">
+                <img src="/Assets/book_taye.png" alt="">
+            </div>
+
+            <div class="text-content"> 
+                <p><b>Taye Arimoro</b> is a professional actor based in Lagos, Nigeria, known for his ability to bring characters to life through his dynamic use of voice, body, actions, and reactions. 
+                    Taye has a robust portfolio of work in TV, film, and stage productions. He has appeared in notable TV shows such as <b><i>"Castle & Castle"</i></b> on Ebonylife TV, where he played a pathologist.</p>
+                <p>Taye Arimoro was lead actor in Niyi Akinmolayan's <b><i>"Casa De Novia" </i></b> on Prime Video, <b><i>"The House of Secrets"</i></b>, Clarence Peters <b><i>"Inside Life" on Netflix</i></b>, Inkblot's latest Nigerian football film <b><i>"When Love Strikes"</i></b>, Anthill's <b><i>"Criminal"</i></b> streaming on Prime Video, <b><i>"Last Year Single"</i></b> now streaming on Netflix, Russet TV's <b><i>"There's Something Wrong with the Bamideles"</i></b>, <b><i>"Son of the Soil"</i></b> a Nigerian-UK action thriller directed by Chee Keong (a UK-Chinese director). 
+                    Taye Arimoro has also been in various television shows including Africa Magic's
+                    <b><i>"Venge"</i></b>, James Omokwe's <b><i>"Ajoche"</i></b> and <b><i>"The Decision"</i></b>, an adaptation of Cinderella.</p>
+            </div>
+          
+        </div>
+
+        <div class="book_taye_display">
+            <img src="/Assets/Book_Taye_display.png" alt="">
+        </div>
+        
+
+
+        <div class="read_more_btn">
+            <a href="#" id="read_more">Book Taye</a>
+        </div>
+
+        <div id="bookingModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close-btn"><div class="x">&times;</div></span>
+                <!-- <div class="modal-logo">Bọ́xọ̀nià</div> -->
+    
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label>Project type:</label>
+                        <div class="options-container">
+                            <span class="option-button" data-group="project-type" data-value="Feature Film">Feature Film</span>
+                            <span class="option-button" data-group="project-type" data-value="Short Film">Short Film</span>
+                            <span class="option-button" data-group="project-type" data-value="AD Commercial">AD Commercial</span>
+                            <span class="option-button" data-group="project-type" data-value="Music Video">Music Video</span>
+                            <span class="option-button" data-group="project-type" data-value="Brand Influencing">Brand Influencing</span>
+                            <span class="option-button" data-group="project-type" data-value="Others">others</span>
+                            <input type="hidden" name="project_type" id="project_type_value">
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label>Platform:</label>
+                        <div class="options-container">
+                            <span class="option-button" data-group="platform" data-value="Cinema">Cinema</span>
+                            <span class="option-button" data-group="platform" data-value="Netflix">Netflix</span>
+                            <span class="option-button" data-group="platform" data-value="Amazon">Amazon</span>
+                            <span class="option-button" data-group="platform" data-value="Youtube">Youtube</span>
+                            <span class="option-button" data-group="platform" data-value="Others">others</span>
+                             <input type="hidden" name="platform" id="platform_value">
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="projectSynopsis" style="text-align: left;">Project Synopsis / Information:</label>
+                        <textarea id="projectSynopsis" name="projectSynopsis" rows="4"></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="projectDuration" style="text-align: left;">Project Duration:</label>
+                        <input type="text" id="projectDuration" name="projectDuration">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="paymentOffer" style="text-align: left;">Payment Offer:</label>
+                        <input type="text" id="paymentOffer" name="paymentOffer">
+                    </div>
+    
+                    <div class="read_more_btn_2">
+                        <a href="#" id="read_more_2">Book Taye</a>
+                    </div>
+                    <!-- <button type="submit" class="submit-btn">Book Bọ̀ọ̀nià</button> -->
+    
+                    <!-- <p class="helper-text">- Project to Gain Marketing Support from Bọ́ọ̀nià Blueprint</p> -->
+                </form>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+    <div class="social_media_icons">
+        <a href="#"><img src="/Assets/IMDb.png" alt=""></a>
+        <a href="#"><img src="/Assets/iNSTAGRAM_2.png" alt=""></a>
+        <a href="#"><img src="/Assets/X_Twitter.png" alt=""></a>
+    </div>
+
+
+    <div class="working_with_taye">
+        <h4>Pros of Working with Taye</h4>
+        <p>
+            - Professionalism on set    &nbsp; - Dynamic performance skills &nbsp; - Professionalism on set   &nbsp; <br>
+            - Great Communication Skills &nbsp; - Good Vibes King <br>
+            - Project to Gain Marketing Support from Boxonia Blueprint
+        </p>
+            
+
+    </div>
+
+
+
+    <!-- <div class="footer-container">
+        <div class="footer-column">
+            <div class="logo"><img src="/Assets/boxonia_logo.png" alt=""></div>
+        </div>
+        <div class="footer-column">
+            <p>Contact Us</p>
+            <p>Address: Lagos, Nigeria</p>
+            <p>Tel: +2348143291731</p>
+        </div>
+        <div class="footer-column">
+            <p>Socials</p>
+            <a href="#">Instagram</a><br>
+            <a href="#">LinkedIn</a><br>
+            <a href="#">Youtube</a><br>
+            <a href="#">Twitter (x)</a>
+        </div>
+        <div class="footer-column">
+            <p>Info</p>
+            <a href="#">Terms & Conditions</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Careers</a>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+
+        var copy = document.querySelector(".our_projects-slide").cloneNode(true);
+        document.querySelector(".our_projects").appendChild(copy);
+    </script>
+</body>
+
+</html>

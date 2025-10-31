@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Durotimi Okutagidi</title>
+    <link rel="stylesheet" href="/Bookings/Styles/book_duro.css">
+    <link rel="icon" type="image/x-icon" href="/Assets/boxonia_logo.ico" />
+    <script src="/Bookings/modal-script.js"></script>
+</head>
+
+<body>
+    <div class="landing_page_content">
+        <header>
+
+            <img src="/Assets/boxonia_logo.png" alt="Boxonia">
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about_boxonia.html">About Boxonia</a>
+                <a href="what_we_do.html">What We Do</a>
+                <a href="talents.html">Talents</a>
+                <a href="projects.html">Projects</a>
+                <a href="news.html">News</a>
+                <a href="faqs.html">FAQ</a>
+                <a href="contact_us.html" id="contac">Contact Us</a>
+            </div>
+        </header>
+
+    </div>
+
+
+
+    <div class="boxonians_container">
+
+        <div class="boxonians">
+            <div class="nav-left">
+                <img src="/Assets/image_left_story.png" alt="">
+            </div>
+            <h1>Boxonia Talents</h1>
+            <div class="nav-right">
+                <img src="/Assets/image_right_story.png" alt="">
+            </div>
+        </div>
+
+        <div class="duro">
+            <h1>Durotimi Okutagidi</h1>
+        </div>
+
+        <div class="boxonians_team">
+
+            <div class="imagonic">
+                <img src="/Assets/book_duro.png" alt="">
+            </div>
+
+            <div class="text-content"> 
+                <p><b>Oluwadurotimi Okutagidi</b> is a talented actor celebrated for his versatility in stage plays, feature-length films, and short movies. 
+                    A graduate of <b><i>EbonyLife Creative Academy</i></b>, he has honed his craft through formal training and practical experience. Beyond acting, 
+                    Oluwadurotimi has also directed personal projects and stage plays, highlighting his multifaceted skills in theater and film.</p>
+                <p>
+                    His notable acting credits include roles in the upcoming film Everything Scatter directed by Jade Osiberu, Son of the Soil (2024), 
+                    a Nigerian-UK action thriller by UK-Chinese director Chee Keong, and The Bride Price under Sunom Kura George’s direction. 
+                    He also stars as James in Mirrors: James’ Split by Arnold Mafo and appeared in Naija Saga (2022) directed by Akinyemi Tag. 
+                    On stage, Oluwadurotimi delivered compelling performances as Olunde in Death and the King’s Horseman (2022) and as the Second Chief in The Gods Are Not to Blame (2022), both directed by Ayo Ajisafe.
+                    In addition to acting, Oluwadurotimi has contributed to projects like the short film Ebiren Re (2024) as Godfrey Williams, directed by Yinka Otubusin, and the TV series Cheta’m (2023) as crew/Apoputara, directed by James Omokwe. 
+                    With a passion for storytelling and an unwavering dedication to his craft, Oluwadurotimi continues to leave a mark on the entertainment industry.</p>
+            </div>
+          
+        </div>
+
+        <!-- <div class="book_duro_display">
+            <img src="/Assets/Book_Duro_display.png" alt="">
+        </div> -->
+        
+
+
+        <div class="read_more_btn">
+            <a href="#" id="read_more">Book Duro</a>
+        </div>
+
+        <div id="bookingModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close-btn"><div class="x">&times;</div></span>
+                <!-- <div class="modal-logo">Bọ́xọ̀nià</div> -->
+    
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <label>Project type:</label>
+                        <div class="options-container">
+                            <span class="option-button" data-group="project-type" data-value="Feature Film">Feature Film</span>
+                            <span class="option-button" data-group="project-type" data-value="Short Film">Short Film</span>
+                            <span class="option-button" data-group="project-type" data-value="AD Commercial">AD Commercial</span>
+                            <span class="option-button" data-group="project-type" data-value="Music Video">Music Video</span>
+                            <span class="option-button" data-group="project-type" data-value="Brand Influencing">Brand Influencing</span>
+                            <span class="option-button" data-group="project-type" data-value="Others">others</span>
+                            <input type="hidden" name="project_type" id="project_type_value">
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label>Platform:</label>
+                        <div class="options-container">
+                            <span class="option-button" data-group="platform" data-value="Cinema">Cinema</span>
+                            <span class="option-button" data-group="platform" data-value="Netflix">Netflix</span>
+                            <span class="option-button" data-group="platform" data-value="Amazon">Amazon</span>
+                            <span class="option-button" data-group="platform" data-value="Youtube">Youtube</span>
+                            <span class="option-button" data-group="platform" data-value="Others">others</span>
+                             <input type="hidden" name="platform" id="platform_value">
+                        </div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="projectSynopsis" style="text-align: left;">Project Synopsis / Information:</label>
+                        <textarea id="projectSynopsis" name="projectSynopsis" rows="4"></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="projectDuration" style="text-align: left;">Project Duration:</label>
+                        <input type="text" id="projectDuration" name="projectDuration">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="paymentOffer" style="text-align: left;">Payment Offer:</label>
+                        <input type="text" id="paymentOffer" name="paymentOffer">
+                    </div>
+    
+                    <div class="read_more_btn_2">
+                        <a href="#" id="read_more_2">Book Duro</a>
+                    </div>
+                    <!-- <button type="submit" class="submit-btn">Book Bọ̀ọ̀nià</button> -->
+    
+                    <!-- <p class="helper-text">- Project to Gain Marketing Support from Bọ́ọ̀nià Blueprint</p> -->
+                </form>
+            </div>
+    
+        </div>
+
+    </div>
+
+
+    <div class="social_media_icons">
+        <a href="#"><img src="/Assets/IMDb.png" alt=""></a>
+        <a href="#"><img src="/Assets/iNSTAGRAM_2.png" alt=""></a>
+        <a href="#"><img src="/Assets/X_Twitter.png" alt=""></a>
+    </div>
+
+
+    <div class="working_with_duro">
+        <h4>Pros of Working with Duro</h4>
+        <p>
+            - Professionalism on set    &nbsp; - Dynamic performance skills &nbsp; - Professionalism on set   &nbsp; <br>
+            - Great Communication Skills &nbsp; - Good Vibes King <br>
+            - Project to Gain Marketing Support from Boxonia Blueprint
+        </p>
+            
+
+    </div>
+
+
+
+    <!-- <div class="footer-container">
+        <div class="footer-column">
+            <div class="logo"><img src="/Assets/boxonia_logo.png" alt=""></div>
+        </div>
+        <div class="footer-column">
+            <p>Contact Us</p>
+            <p>Address: Lagos, Nigeria</p>
+            <p>Tel: +2348143291731</p>
+        </div>
+        <div class="footer-column">
+            <p>Socials</p>
+            <a href="#">Instagram</a><br>
+            <a href="#">LinkedIn</a><br>
+            <a href="#">Youtube</a><br>
+            <a href="#">Twitter (x)</a>
+        </div>
+        <div class="footer-column">
+            <p>Info</p>
+            <a href="#">Terms & Conditions</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Careers</a>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+
+        var copy = document.querySelector(".our_projects-slide").cloneNode(true);
+        document.querySelector(".our_projects").appendChild(copy);
+    </script>
+</body>
+
+</html>

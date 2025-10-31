@@ -1,0 +1,20 @@
+ body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111111;
+        }
+        .hero-section {
+            /* The background image from the screenshot. Replace with a high-quality version if available. */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('action-everywhere-BG.PNG');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Custom font for the "action everywhere" text */
+        .custom-font-display {
+            font-family: 'Orbitron', sans-serif;
+            letter-spacing: 0.1em;
+        }
+        /* Custom font for the logo */
+        .logo-font {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: 700;
+        }
